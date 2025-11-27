@@ -9,32 +9,35 @@ This repository contains hands-on lab exercises and materials for a GitHub Admin
 
 This workshop consists of three progressive labs:
 
-### Lab 1: Teams and Nested Teams
+### Lab 1: Create Teams and Nested Teams
 Learn how to organize users into teams and sub-teams for better permission management.
-- Create main teams representing functional areas
-- Set up nested teams for specific sub-areas
-- Manage team membership and visibility
-- Understand team hierarchy
+- Navigate to organization team settings
+- Create a main team with your name
+- Add team members with appropriate roles
+- Create nested child teams under the main team
+- Verify team hierarchy and member assignments
 
 📁 [View Lab 1](lab_1/README.md)
 
-### Lab 2: Repository Management
-Master repository settings, branch protection, and access controls.
-- Configure repository settings
-- Set up branch protection rules
-- Manage collaborator permissions
-- Implement security policies
+### Lab 2: Team Privileges and Repository Access
+Understand how to manage repository permissions through team assignments and privilege inheritance.
+- Create a private repository in your organization
+- Assign different permission levels to teams (Read vs Write)
+- Test access controls with team members
+- Learn about permission inheritance between parent and nested teams
+- Understand GitHub's least privilege security model
 
-📁 [View Lab 2](lab_2/)
+📁 [View Lab 2](lab_2/README.md)
 
-### Lab 3: CI/CD with GitHub Actions
-Build and deploy applications using GitHub Actions workflows.
-- Create automated testing workflows
-- Implement continuous integration
-- Configure linting and code quality checks
-- Deploy applications
+### Lab 3: GitHub Actions CI Workflow
+Automate testing and code quality checks using GitHub Actions.
+- Set up a Python CI workflow from scratch
+- Configure automated linting with flake8
+- Run automated tests with pytest
+- Trigger workflows on push and pull requests
+- Monitor workflow execution in the Actions tab
 
-📁 [View Lab 3](lab_3/)
+📁 [View Lab 3](lab_3/README.md)
 
 ## Prerequisites
 
@@ -60,21 +63,6 @@ Build and deploy applications using GitHub Actions workflows.
    - Progress to Lab 2 for repository administration
    - Complete Lab 3 to master GitHub Actions
 
-## Repository Structure
-
-```
-gh-admin-workshop-content/
-├── README.md                 # This file
-├── requirements.txt          # Python dependencies for Lab 3
-├── lab_1/
-│   └── README.md            # Team management exercises
-├── lab_2/                   # Repository management materials
-└── lab_3/
-    ├── app.py               # Sample Flask application
-    └── tests/
-        └── test_app.py      # Unit tests for CI/CD demo
-```
-
 ## Technologies Used
 
 - **GitHub Teams & Organizations** - Team and permission management
@@ -88,11 +76,12 @@ gh-admin-workshop-content/
 
 By completing this workshop, you will be able to:
 
-✅ Create and manage GitHub teams with proper hierarchies  
-✅ Configure repository settings and branch protections  
-✅ Implement automated CI/CD pipelines using GitHub Actions  
-✅ Apply security best practices for GitHub organizations  
-✅ Collaborate effectively using GitHub's team features  
+✅ Create and manage GitHub teams with nested hierarchies  
+✅ Configure team-based repository permissions and access controls  
+✅ Understand permission inheritance between parent and child teams  
+✅ Implement automated CI workflows using GitHub Actions  
+✅ Set up automated testing and linting in your repositories  
+✅ Apply least privilege security principles in GitHub organizations  
 
 ## Support
 
